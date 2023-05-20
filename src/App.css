@@ -1,0 +1,67 @@
+/* App.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #444444;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  padding: 20px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.output {
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: #666666;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.output-section {
+  margin-top: 20px;
+}
+
+.input-section {
+  width: 70%;
+}
+
+.input-slider {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.slider-output {
+  text-align: left;
+  margin-top: 10px;
+}
